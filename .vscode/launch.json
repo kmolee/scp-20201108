@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run kmolee2-1",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "customer.kmolee2.Application",
+      "projectName": "kmolee2",
+      "preLaunchTask": "Build kmolee2",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env1",
+      "env": {
+        "run.config": "{\"handlerId\":\"cap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/kmolee2\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    },
+    {
+      "name": "Run kmolee2-2",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "customer.kmolee2.Application",
+      "projectName": "kmolee2",
+      "preLaunchTask": "Build kmolee2",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env2",
+      "env": {
+        "run.config": "{\"handlerId\":\"cap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/kmolee2\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    }
+  ]
+}

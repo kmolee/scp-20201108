@@ -1,0 +1,11 @@
+# auto generated wildcard
+.env1
+
+# added by cds deploy
+default-env.json
+
+# auto generated wildcard
+.env2
+
+# ignore all files in the build/ directory
+node_modules/*
